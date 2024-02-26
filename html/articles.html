@@ -1,52 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venice Magazine - Articles</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Revista Veneza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
+
 <body>
-    <header>
+    <header role="banner">
         <div class="header-content">
-            <h1>Venice Magazine</h1>
-            <nav>
+            <div class="logo">
+                <h1><a href="index.html"><span><img src="img/logo.svg" alt="Logo" /></span></a></h1>
+            </div>
+            <nav role="navigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="articles.html">Articles</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="articles.html">Artigos</a></li>
+                    <li><a href="contact.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section id="articles-section">
-            <h2>Latest Articles</h2>
-            <ul>
-                <li>
-                    <a href="article1.html">
-                        <h3>Article Title 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="article2.html">
-                        <h3>Article Title 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="article3.html">
-                        <h3>Article Title 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
+
+
+        <footer role="contentinfo">
+            <p>Copyright © 2024 Revista Veneza. Todos os direitos reservados.</p>
+        </footer>
+
     </main>
-    <footer>
-        <p>&copy; 2023 Venice Magazine. All rights reserved.</p>
-    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

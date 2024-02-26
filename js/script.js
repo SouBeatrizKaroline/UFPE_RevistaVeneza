@@ -1,5 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () { var carouselSwiper = new Swiper(".carousel", { pagination: { el: ".swiper-pagination", clickable: true, }, }); });
+
 document.addEventListener("DOMContentLoaded", function () {
-    const carousel = new Swiper(".carousel", {
+    const minibaner = new Swiper(".minibaner", {
         loop: true,
         slidesPerView: 1,
         spaceBetween: 30,
