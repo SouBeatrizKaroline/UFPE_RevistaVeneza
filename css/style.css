@@ -156,6 +156,7 @@ section[role="region"] {
 
 .featured-articles article {
     break-inside: avoid;
+    margin-bottom: 2rem;
 }
 
 .featured-articles article img {
@@ -166,6 +167,15 @@ section[role="region"] {
 
 .featured-articles article h3 {
     margin-top: 0;
+}
+
+.featured-articles article p {
+    margin-bottom: 0.5rem;
+}
+
+.featured-articles article a {
+    color: #DB4812;
+    text-decoration: none;
 }
 
 footer {
@@ -184,4 +194,128 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+.team-photo {
+    display: block;
+    margin: 1rem auto;
+    width: 70rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #DB4812;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list li {
+    flex: 1;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    margin: 1rem 2rem;
+}
+
+.team-member-photo {
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member-name {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.team-member-bio {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.team-member-social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team-member-social-links li {
+    margin: 0 0.5rem;
+}
+
+.team-member-social-link {
+    display: block;
+    padding: 0.5rem;
+    background-color: #DB4812;
+    color: #F0E6C4;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.team-member-social-link:hover {
+    background-color: #e2a28b;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 0;
+    margin: 1rem;
+    font-size: 2rem;
+    color: #DB4812;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 8rem;
+}
+
+section.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 8rem;
+}
+
+article h3 {
+    text-align: center;
+    margin-top: 0;
+    margin: 1rem;
+    font-size: 2rem;
+    color: #DB4812;
+}
+
+article h1 {
+    text-align: center;
+    margin-top: 0;
+    margin: 1rem;
+    font-size: 15rem;
+    color: #DB4812;
+}
+
+article p {
+    margin-bottom: 20px;
 }
