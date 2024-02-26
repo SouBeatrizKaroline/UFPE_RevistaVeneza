@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Veneza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header role="banner">
+        <div class="header-content">
+            <div class="logo">
+                <h1><a href="index.html"><span><img src="img/logo.svg" alt="Logo" /></span></a></h1>
+            </div>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+<section id="carousel-section" role="region" aria-labelledby="carousel-heading">
+    <h2 id="carousel-heading">Featured Articles</h2>
+    <div class="swiper carousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://via.placeholder.com/1200x500" alt="Article 1" />
+                <div class="slide-content">
+                    <div class="slide-content-inner">
+                        <h3>Article Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum
+                            bibendum ultrices.</p>
+                        <a href="article1.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://via.placeholder.com/1200x500" alt="Article 2" />
+                <div class="slide-content">
+                    <div class="slide-content-inner">
+                        <h3>Article Title 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum
+                            bibendum ultrices.</p>
+                        <a href="article2.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://via.placeholder.com/1200x500" alt="Article 3" />
+                <div class="slide-content">
+                    <div class="slide-content-inner">
+                        <h3>Article Title 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum
+                            bibendum ultrices.</p>
+                        <a href="article3.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+        <section id="latest-articles">
+            <h2>Latest Articles</h2>
+            <ul>
+                <li><a href="article1.html">Article Title 1</a></li>
+                <li><a href="article2.html">Article Title 2</a></li>
+                <li><a href="article3.html">Article Title 3</a></li>
+                <li><a href="article4.html">Article Title 4</a></li>
+                <li><a href="article5.html">Article Title 5</a></li>
+            </ul>
+        </section>
+    </main>
+    <script> document.addEventListener("DOMContentLoaded", function () { var carouselSwiper = new Swiper(".carousel", { pagination: { el: ".swiper-pagination", clickable: true, }, }); }); </script>
+</body>
+
+</html>
