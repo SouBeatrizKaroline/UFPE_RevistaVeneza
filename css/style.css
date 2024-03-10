@@ -65,10 +65,11 @@ nav a {
     nav ul {
         display: none;
     }
+
+    nav a {
+        font-size: 24px;
+    }
 }
-
-
-
 
 section[role="region"] {
     width: 100%;
@@ -142,7 +143,6 @@ section[role="region"] {
         border-radius: 0.25rem;
         transition: background-color 0.3s ease;
     }
-    
 
     .read-more-btn:hover {
         background-color: #DB4812;
@@ -326,3 +326,17 @@ article p {
     font-size: 1.5rem;
     color: #DB4812;
 }
+
+@media only screen and (max-width: 768px) {
+    .featured-articles article {
+      column-count: 1;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .featured-articles article {
+      column-count: 2;
+      margin-bottom: 1rem;
+    }
+  }
