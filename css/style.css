@@ -198,19 +198,17 @@ footer a:hover {
 }
 
 .team-member-photo {
-    display: block;
-    margin: 0 auto;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 1rem;
+    width: 16vw;
+    height: 16vw;
+    align-items: center;
+    justify-content: center;
     box-shadow: #DB4812 0 0 0 2px;
+    border-radius: 100%;
 }
 
 .team-member-name {
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #DB4812;
 }
@@ -617,7 +615,7 @@ img#logo {
         position: relative;
     }
 
-    .carousel img{
+    .carousel img {
         width: 100vw;
         height: 50vw;
         top: 0;
@@ -643,19 +641,19 @@ img#logo {
         align-items: center;
         transition: transform 0.3s ease-in-out;
     }
-    
+
     .swiper-slide img {
         width: 100vw;
         height: 50vw;
         top: 0;
         left: 0;
     }
-    
+
     .slide-content {
         position: flex;
         width: 100vw;
         height: 100vw;
-        margin-top:1vh;
+        margin-top: 1vh;
         padding-top: 12vw;
         background-color: #DB4812;
         color: #F0E6C4;
@@ -665,17 +663,17 @@ img#logo {
         opacity: 0;
         transition: opacity 0.3s ease-in-out;
     }
-    
+
     .swiper-slide:hover .slide-content {
         opacity: 1;
     }
-    
+
     #carousel-section {
         text-align: center;
         padding: 0.1rem;
         margin: 0;
     }
-    
+
 
     #carousel-section h3 {
         margin-top: 0;
@@ -698,11 +696,11 @@ img#logo {
         transition: background-color 0.3s ease;
         margin: 0;
         font-size: 2vw;
-    }   
+    }
 
     #carousel-section a {
         margin-top: 0.5vw;
-    }  
+    }
 
     .slide-content a:hover {
         text-decoration: underline;
@@ -710,7 +708,7 @@ img#logo {
         color: #DB4812;
     }
 
-    #carousel-section p{
+    #carousel-section p {
         margin-bottom: 1rem;
         line-height: 1.6;
         font-size: 2vw;
@@ -726,19 +724,19 @@ img#logo {
         margin: 0;
     }
 
-    #minibaner-section h3{
+    #minibaner-section h3 {
         margin: 0;
         padding: 0;
         font-size: small;
         margin-top: -4vh;
     }
 
-    #minibaner-section p{
+    #minibaner-section p {
         font-size: 2vw;
         margin: 0;
         padding: 0;
     }
-    
+
     /*articles*/
     .featured-articles {
         display: flex;
@@ -763,16 +761,16 @@ img#logo {
     }
 
     /*About*/
-      .team-list {
+    .team-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
         padding: 0;
         margin: 2rem 1rem;
-      }
-    
-      .team-list li {
+    }
+
+    .team-list li {
         width: 16rem;
         height: auto;
         list-style: none;
@@ -782,18 +780,18 @@ img#logo {
         padding: 1rem;
         margin: 1rem 1rem;
 
-      }
+    }
 
-      .team-list ul{
+    .team-list ul {
         display: flex;
         justify-content: center;
         gap: 1rem;
         align-items: center;
         margin: 0 1rem;
         padding: auto;
-      }
+    }
 
-      .team-photo{
+    .team-photo {
         width: 90vw;
         height: 64vw;
         margin: auto;
@@ -803,16 +801,19 @@ img#logo {
         display: flex;
         border-radius: 4px;
         box-shadow: 0 2px 4px #DB4812;
-      }
-    
-      .team-member-photo {
+    }
+
+    .team-member-photo {
         width: 16vw;
         height: 16vw;
         align-items: center;
         justify-content: center;
-      }
+        box-shadow: #DB4812 0 0 0 2px;
+        border-radius: 100%;
+    }
+    }
 
-      .team-member-social-links {
+    .team-member-social-links {
         list-style: none;
         padding: 0.1rem;
         margin: 0.1rem;
@@ -822,12 +823,12 @@ img#logo {
         align-items: center;
         gap: 0.1rem;
     }
-    
+
     .team-member-social-links li {
         margin: 0 0.2rem;
         padding: 0.3rem;
     }
-    
+
     .team-member-social-link {
         display: block;
         padding: 0.1rem;
@@ -839,11 +840,12 @@ img#logo {
         border-radius: 4px;
         transition: background-color 0.3s ease;
     }
-    
+
     .team-member-social-link:hover {
         background-color: #e2a28b;
     }
-/* Section Content*/
+
+    /* Section Content*/
     .section-content {
         display: flex;
         flex-direction: column;
@@ -854,7 +856,7 @@ img#logo {
         max-width: 24rem;
         margin: auto;
     }
-    
+
     .section-content h3 {
         text-align: center;
         margin-top: 0;
@@ -862,7 +864,7 @@ img#logo {
         font-size: 2rem;
         color: #DB4812;
     }
-    
+
     .section-content h1 {
         text-align: center;
         margin-top: 0;
@@ -872,7 +874,7 @@ img#logo {
         line-height: .9;
         font-weight: bold;
     }
-    
+
     .section-content p {
         padding: 0;
         line-height: 1.6;
@@ -881,5 +883,5 @@ img#logo {
         width: 90vw;
         text-align: justify;
     }
-    
+
 }
