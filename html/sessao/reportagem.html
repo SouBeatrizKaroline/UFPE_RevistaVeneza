@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,17 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
+
 <body>
     <header>
         <div class="header-content">
             <div class="Logo-da-Revista-Veneza">
                 <img src="../../img/logo.svg" alt="Logo da Revista Veneza" id="logo">
             </div>
-
             <nav>
                 <ul>
                     <li><a href="../../index.html">Início</a></li>
-                    <li><a href="../about.html">Sobre</a></li>
+                    <li><a href="./../about.html">Sobre</a></li>
                     <li>
                         <a href="../../html/articles.html" id="articles-link">Artigos</a>
                         <ul class="submenu" id="articles-submenu">
@@ -34,14 +35,20 @@
         </div>
     </header>
     <main>
-        <section>
-            <article>
-                <h1>Em Breve</h1>
-                <img src="https://via.placeholder.com/1200x500" alt="Imagem do artigo 1">
-                <p>
-                    Em Breve
-                </p>
-            </article>
+        <section id="featured-section" role="region" aria-labelledby="featured-heading">
+            <h3>Reportagens da Revista Veneza</h3>
+            <div class="featured-articles">
+                <article>
+                    <img src="../../img/RogerRennor/RogerColorido.jpg" alt="Foto de RogerDeRenor" />
+                    <div class="article-content">
+                        <h3>O Som no Estelita</h3>
+                        <p>Uma entrevista com Roger de Renor: Depois de 10 anos do Movimento Ocupe Estelita, Renor
+                            relembra a importância da cultura para luta pelo direito à cidade</p>
+                        <a href="../articles/article1.html">Leia Mais</a>
+                    </div>
+                </article>
+
+            </div>
         </section>
 
         <footer role="contentinfo">
