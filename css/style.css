@@ -806,8 +806,8 @@ img#logo {
       }
     
       .team-member-photo {
-        width: 16rem;
-        height: 16rem;
+        width: 16vw;
+        height: 16vw;
         align-items: center;
         justify-content: center;
       }
