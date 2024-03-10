@@ -142,6 +142,10 @@ section[role="region"] {
     color: #DB4812;
 }
 
+#about-section{
+    padding-top: 8vh;
+}
+
 footer {
     margin-top: 2rem;
     background-color: #DB4812;
