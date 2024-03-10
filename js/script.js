@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Redireciona para a página de artigos após um pequeno atraso
             setTimeout(function() {
                 window.location.href = articlesLink.getAttribute("href");
-            }, 200); // Ajuste o tempo conforme necessário
+            }, 100); // Ajuste o tempo conforme necessário
         });
     }
 });
