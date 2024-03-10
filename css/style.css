@@ -166,7 +166,8 @@ footer a:hover {
 .team-photo {
     display: block;
     margin: 1rem auto;
-    width: 70rem;
+    width: 90vw;
+
     border-radius: 4px;
     box-shadow: 0 2px 4px #DB4812;
     object-fit: cover;
@@ -288,6 +289,7 @@ footer a:hover {
 .section-content p {
     margin-bottom: 1rem;
     line-height: 1.6;
+    font-size: 1vw;
 }
 
 /* Articles */
@@ -479,7 +481,7 @@ nav li {
 }
 
 img#logo {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
