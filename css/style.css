@@ -606,6 +606,131 @@ img#logo {
     }
 
     /* Carrosels */
+    .carousel {
+        width: 100vw;
+        height: 50vw;
+        margin: auto;
+        padding: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel img{
+        width: 100vw;
+        height: 50vw;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-swiper {
+        width: 100vw;
+        height: 50vw;
+        margin: auto;
+        padding: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .swiper-slide {
+        position: relative;
+        overflow: hidden;
+        height: 100vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .swiper-slide img {
+        width: 100vw;
+        height: 50vw;
+        top: 0;
+        left: 0;
+    }
+    
+    .slide-content {
+        position: flex;
+        width: 100vw;
+        height: 100vw;
+        margin-top:1vh;
+        padding-top: 12vw;
+        background-color: #DB4812;
+        color: #F0E6C4;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    
+    .swiper-slide:hover .slide-content {
+        opacity: 1;
+    }
+    
+    #carousel-section {
+        text-align: center;
+        padding: 0.1rem;
+        margin: 0;
+    }
+    
+
+    #carousel-section h3 {
+        margin-top: 0;
+        font-size: 4vw;
+        margin: 0;
+        padding: 0;
+        width: 80vw;
+    }
+
+    .slide-content a {
+        display: inline-block;
+        margin-top: 0.5vw;
+        color: #F0E6C4;
+        text-decoration: none;
+        padding: 0.2vw 0.5vw;
+        border: solid 2px #F0E6C4;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s ease;
+        margin: 0;
+        font-size: 2vw;
+    }   
+
+    #carousel-section a {
+        margin-top: 0.5vw;
+    }  
+
+    .slide-content a:hover {
+        text-decoration: underline;
+        background-color: #F0E6C4;
+        color: #DB4812;
+    }
+
+    #carousel-section p{
+        margin-bottom: 1rem;
+        line-height: 1.6;
+        font-size: 2vw;
+        margin: 0;
+        padding: 0;
+        width: 80vw;
+    }
+
+    /*MiniBanner*/
+
+    #minibaner-section {
+        padding: 0;
+        margin: 0;
+    }
+
+    #minibaner-section h3{
+        margin-top: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*articles*/
     .featured-articles {
         display: flex;
         flex-direction: column;
