@@ -602,4 +602,27 @@ img#logo {
         break-before: avoid;
         break-inside: avoid;
     }
+
+    /* Carrosels */
+    .featured-articles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-articles article {
+        margin-bottom: 20px;
+    }
+
+    .featured-articles {
+        flex-direction: column;
+    }
+
+    .featured-articles article {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .featured-articles article:last-child {
+        margin-right: 0;
+    }
 }
