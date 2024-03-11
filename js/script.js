@@ -26,19 +26,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (articlesLink && articlesSubmenu) {
         articlesLink.addEventListener("click", function(event) {
-            event.preventDefault(); // Evita que o link seja seguido
-
-            // Alterna a exibição do submenu
+            event.preventDefault(); 
             if (articlesSubmenu.style.display === "none") {
                 articlesSubmenu.style.display = "block";
             } else {
                 articlesSubmenu.style.display = "none";
             }
 
-            // Redireciona para a página de artigos após um pequeno atraso
             setTimeout(function() {
                 window.location.href = articlesLink.getAttribute("href");
-            }, 100); // Ajuste o tempo conforme necessário
+            }, 100); 
         });
     }
 });

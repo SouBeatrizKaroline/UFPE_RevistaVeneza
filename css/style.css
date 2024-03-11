@@ -15,6 +15,8 @@ main {
     height: calc(100vh - 8vh);
     margin: 0;
     padding: 0;
+    padding-top: 8vh;
+    position: relative;
 
 }
 
@@ -143,23 +145,26 @@ section[role="region"] {
 }
 
 #about-section{
-    padding-top: 8vh;
+    padding-top: auto;
 }
 
 footer {
-    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
     background-color: #DB4812;
     color: #F0E6C4;
-    padding: 1rem;
+    margin-top: 8rem;
     text-align: center;
     font-size: 1rem;
     box-shadow: 0 2px 4px #DB4812;
 }
 
-footer a {
+footer p {
     color: #F0E6C4;
     text-decoration: none;
     transition: text-decoration 0.3s ease;
+    padding: 1rem;
 }
 
 footer a:hover {
